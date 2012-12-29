@@ -992,8 +992,8 @@ void awe_webview_clear_all_url_filters(awe_webview* webview);
 void awe_webview_set_header_definition(awe_webview* webview,
 											const(awe_string)* name,
 											size_t num_fields,
-											const(awe_string)** field_names,
-											const(awe_string)** field_values);
+											const(awe_string*)* field_names,
+											const(awe_string*)* field_values);
 			
 /**
  * Adds a new a header re-write rule. All requests whose URL matches the
@@ -1705,7 +1705,7 @@ const(awe_jsobject)* awe_jsvalue_get_object(const(awe_jsvalue)* jsvalue);
  * @param	jsvalue_array	An array of JSValue instances to be copied from.
  * @param	length		Length of the array.
  */
-awe_jsarray* awe_jsarray_create(const(awe_jsvalue)** jsvalue_array,
+awe_jsarray* awe_jsarray_create(const(awe_jsvalue*)* jsvalue_array,
 										   size_t length);
 
 /**
