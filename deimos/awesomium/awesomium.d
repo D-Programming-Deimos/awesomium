@@ -180,8 +180,8 @@ struct awe_webkeyboardevent
 	int modifiers;
 	int virtual_key_code;
 	int native_key_code;
-	wchar16 text[4];
-	wchar16 unmodified_text[4];
+	wchar16[4] text = [0, 0, 0, 0];
+	wchar16[4] unmodified_text = [0, 0, 0, 0];
 	bool is_system_key;
 }
 	
