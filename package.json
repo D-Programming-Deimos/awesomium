@@ -1,0 +1,11 @@
+{
+	"name": "awesomium",
+	"description": "A Web UI Bridge for Native Applications. Leverage HTML/JS/CSS to build your application’s front-end.",
+	"authors": [
+		"David Herberth",
+		"Walter Bright"
+	],
+	"targetType": "library",
+	"targetName": "awesomium",
+	"targetPath": "lib"
+}
