@@ -1,0 +1,10 @@
+{
+	"name": "awesomium",
+	"description": "Deimos bindings for Awesomium, A Web UI Bridge for Native Applications.",
+	"authors": [
+		"David Herberth",
+		"Walter Bright"
+	],
+	"targetName": "awesomium",
+	"targetPath": "lib"
+}
